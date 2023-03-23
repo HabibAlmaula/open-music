@@ -1,16 +1,19 @@
 {
-  "env": {
-    "es2021": true,
-    "node": true
-  },
-  "extends": [
-    "airbnb-base"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 2020
-  },
-  "rules": {
-    "no-console": "off",
-    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
-  }
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "google",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console": "off",
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+        "require-jsdoc": "off",
+        "new-cap": "off"
+    }
 }
