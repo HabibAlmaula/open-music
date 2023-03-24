@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0d4847a6-235d-443f-b043-e6e02eac9da3" name="Changes" comment="fixing : songs &amp; albums">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/1679404365741_create-table-album.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1679404365741_create-table-album.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/1679404372229_create-table-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1679404372229_create-table-song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/songs/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/songs/handler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/postgres/SongsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/SongsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679626236391</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixing : songs &amp; albums">
+      <created>1679637533685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679637533685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

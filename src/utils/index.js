@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 const mapAlbumToModel = (data) => {
   console.log(data);
   const songs = data.reduce((acc, row) => {
