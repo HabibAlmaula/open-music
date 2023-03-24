@@ -24,7 +24,7 @@ class SongsService {
 
     const result = await this._pool.query(query);
     if (!result.rows.length) {
-      throw InVariantError('Lagu gagal ditambahkan');
+      throw new InVariantError('Lagu gagal ditambahkan');
     }
     return result.rows[0].id;
   }
@@ -84,7 +84,7 @@ class SongsService {
 
     const result = await this._pool.query(query);
     if (!result.rows.length) {
-      throw InVariantError('Gagal memperbarui lagu, Id tidak ditemukan');
+      throw new NotFoundError('Gagal memperbarui lagu, Id tidak ditemukan');
     }
   }
 

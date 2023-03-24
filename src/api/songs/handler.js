@@ -47,11 +47,11 @@ class SongsHandler {
 
   async getDetailSongHandler(request) {
     const {id} = request.params;
-    const album = await this._service.getDetailSong(id);
+    const song = await this._service.getDetailSong(id);
     return {
       status: 'success',
       data: {
-        album,
+        song,
       },
     };
   }
