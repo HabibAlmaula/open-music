@@ -1,5 +1,4 @@
 const mapAlbumToModel = (data) => {
-  console.log(data);
   const songs = data.reduce((acc, row) => {
     if (row.song_id != null && row.title != null && row.performer != null) {
       acc.push({

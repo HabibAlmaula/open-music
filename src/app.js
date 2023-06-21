@@ -37,7 +37,7 @@ const init = async () => {
         return newResponse;
       }
       /* mempertahankan penanganan client error oleh hapi secara native,
-      seperti 404, etc.*/
+            seperti 404, etc.*/
       if (!response.isServer) {
         return h.continue;
       }
@@ -50,7 +50,7 @@ const init = async () => {
       return newResponse;
     }
     /* jika bukan error,
-    lanjutkan dengan response sebelumnya (tanpa terintervensi)*/
+        lanjutkan dengan response sebelumnya (tanpa terintervensi)*/
     return h.continue;
   });
 
