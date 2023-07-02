@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d4847a6-235d-443f-b043-e6e02eac9da3" name="Changes" comment="fixing : songs &amp; albums">
+    <list default="true" id="0d4847a6-235d-443f-b043-e6e02eac9da3" name="Changes" comment="fixing : submission 1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1679404365741_create-table-album.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1679404365741_create-table-album.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1679404372229_create-table-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1679404372229_create-table-song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/postgres/SongsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/SongsService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -62,28 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.19.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.18",
-    "last_opened_file_path": "C:/laragon/www/open-music/src/validator/songs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.19.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/open-music&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\open-music" />
       <recent name="C:\laragon\www\open-music\src\validator\songs" />
       <recent name="C:\laragon\www\open-music\src\validator\albums" />
       <recent name="C:\laragon\www\open-music\src\exception" />
@@ -103,6 +102,7 @@
       <updated>1679403678706</updated>
       <workItem from="1679403679900" duration="4794000" />
       <workItem from="1679408596107" duration="178000" />
+      <workItem from="1688078171974" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="fixing : albums handler and .env">
       <created>1679413709057</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679637533685</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixing : submission 1">
+      <created>1687360654541</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687360654541</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="fixing : albums handler and .env" />
     <MESSAGE value="fixing : albums feature" />
     <MESSAGE value="fixing : songs &amp; albums" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing : songs &amp; albums" />
+    <MESSAGE value="fixing : submission 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing : submission 1" />
   </component>
 </project>
